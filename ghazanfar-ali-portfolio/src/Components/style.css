@@ -1,64 +1,79 @@
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    background-color: #111418;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    padding-top: 20px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #111418;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  padding-top: 20px;
 }
-.options{
-    display: block;
-    color: rgb(255, 255, 255);
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-.prof-image{
+
+.options {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.prof-image {
   width: 150px;
   height: 140px;
   border-radius: 50%;
   border: 15px solid #343a40;
-  margin-left: 17%;
+  margin-left: 19%;
   margin-top: 10%;
 }
-.name{
+
+.name {
   color: white;
-  margin-left: 20%;
+  margin-left: 14%;
+  font-size: 2.1rem !important;
 }
+
 ul .options {
   margin-top: 4%;
   margin-left: 35%;
 }
-.option-1{
+
+.option-1 {
   padding-top: 70%;
 }
-.social-icons{
+
+.social-icons {
   display: inline-flex;
   margin-top: 10%;
 }
-.icons{
+
+.icons {
   color: white;
   margin-left: 5%;
 }
-.icon-1{
+
+.icon-1 {
   padding-left: 30%;
 
 }
-.icons{
+
+.icons {
   color: #aab1b8 !important;
 }
+
 .app2 {
   font-family: sans-serif;
-  font-weight:800;
-  font-size:40px;
+  font-weight: 800;
+  font-size: 40px;
   text-align: center;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  margin-left: 15%;
+}
+
+.home-page-background {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg');
   background-attachment: fixed;
   background-position: 50%;
@@ -66,7 +81,85 @@ ul .options {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  min-height: 100vh;
+
   transition: background-image .3s ease-in .2s;
+}
+
+.welcome {
+  margin-left: 52%;
   color: white;
-  margin-left: 15%;
+  font-size: 39px;
+  padding-top: 17%;
+}
+
+.fas{
+  margin-left: 56%;
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  padding-top: 20%;
+  animation-name: arrowdown;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  font-weight: 100;
+  opacity: 1;
+}
+@keyframes arrowdown{
+  0%   {top:0px;transform: translateY(0);}
+  
+  100% {opacity: 0;transform: translateY(40px);}
+}
+.about-me{
+  width: 100%;
+  height: 800px;
+  background-color: #212529;
+}
+.about-me-text{
+  text-transform: uppercase;
+  opacity: .1;
+  color: #363b3f;
+  margin-left: 40%;
+  font-size: 120px;
+  font-weight: 600;
+  padding-top: 5%;
+}
+.about-me-2{
+  color: white !important;
+  margin-left: 47%;
+  margin-top: -6%;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 20px;
+  position: relative;
+}
+.about-me-2:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+  width: 13%;
+  border-bottom: 3px solid #20c997;
+}
+.about-me-3{
+  margin-left: 25%;
+  color: #fff;
+  margin-top: 5%;
+  font-size: 1.75rem;
+  font-weight: 600;
+  width: 50%;
+}
+.about-me-3 span{
+  color: #20c997;
+}
+.about-me-4{
+  color: hsla(0,0%,100%,.5) !important;
+  width: 45%;
+  margin-left: 25%;
+  line-height: 1.8;
+  font-size: 18px;
+}
+.delivering{
+  margin-top: 10px;
 }
