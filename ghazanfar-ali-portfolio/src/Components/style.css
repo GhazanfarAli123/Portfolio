@@ -1,4 +1,5 @@
-ul {
+
+.header-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -32,7 +33,7 @@ ul {
   font-size: 2.1rem !important;
 }
 
-ul .options {
+.header-nav .options {
   margin-top: 4%;
   margin-left: 35%;
 }
@@ -43,12 +44,12 @@ ul .options {
 
 .social-icons {
   display: inline-flex;
-  margin-top: 10%;
+  margin-top: 90%;
 }
 
 .icons {
   color: white;
-  margin-left: 5%;
+  margin-left: 45%;
 }
 
 .icon-1 {
@@ -119,7 +120,7 @@ ul .options {
 .about-me-text{
   text-transform: uppercase;
   opacity: .1;
-  color: #363b3f;
+  color: #6c757d !important;
   margin-left: 40%;
   font-size: 120px;
   font-weight: 600;
@@ -162,4 +163,52 @@ ul .options {
 }
 .delivering{
   margin-top: 10px;
+}
+.about-table ul{
+  color: #fff;
+  float: right;
+  margin-right: 8%;
+  margin-top: -12%;
+  list-style: none;
+
+}
+.about-table ul li{
+  margin-top: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid hsla(0,0%,98%,.12);
+  padding-bottom: 10px;
+}
+.about-table ul li span{
+  font-weight: 600;
+}
+.about-table ul li a{
+  text-decoration: none;
+  color: #20c997;
+}
+.about-table ul li:nth-child(4){
+border: none;
+}
+.cv-button{
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  background-color: #20c997;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all .5s;
+}
+.cv-button:hover{
+  color: #fff;
+  background-color: #1baa80;
+  cursor: pointer;
+}
+.header-nav li a{
+  text-decoration: none;
+  color: #fff;
+  transition: all .5s;
+}
+.header-nav li a:hover{
+  color: #20c997;
 }

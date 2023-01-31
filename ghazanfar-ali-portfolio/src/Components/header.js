@@ -8,10 +8,10 @@ const Header = () => {
     return (
         <div className="header">
             <nav className="navigation_bar">
-            <ul>
+            <ul className="header-nav">
                 <img className="prof-image" src={images} alt="ghazanfar ali" />
                 <h1 className="name">Ghazanfar Ali</h1>
-                <li className="option-1 options">Home</li>
+                <li className="option-1 options"><a href="#about-me"> Home</a></li>
                 <li className="options">About</li>
                 <li className="options">Contact</li>
                 <li className="options">Services</li>
