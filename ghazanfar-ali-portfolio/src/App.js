@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./Components/header";
-import { Services } from "./Components/services";
 import { Home } from "./Components/Home";
 import { About } from "./Components/About";
+import { Services } from "./Components/Services";
 import "./Components/script.js"
 
 function App() {

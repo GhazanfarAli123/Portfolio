@@ -1,3 +1,4 @@
+import CountUp from 'react-countup';
 export const About = () => {
 
   return (
@@ -23,8 +24,25 @@ export const About = () => {
           <li><span>Email </span>: <a href="ghazanfar.alizahid@gmail.com">ghazanfar.alizahid@gmail.com</a></li>
           <li><span>Age</span> : 22</li>
           <li><span>From</span> : Lahore, Pakistan</li>
-          <button className="cv-button">Download CV</button>
         </ul>
+      </div>
+      <div className='counters'>
+      <CountUp start={0} end={1} delay={1}>
+        {({ countUpRef }) => (
+          <div className='counter'>
+            <span ref={countUpRef} />
+            <h4>Years Experience</h4>
+          </div>
+        )}
+      </CountUp>
+      <CountUp start={0} end={10} delay={1}>
+        {({ countUpRef }) => (
+          <div className='counter-2'>
+            <span ref={countUpRef} />
+            <h4>Projects</h4>
+          </div>
+        )}
+      </CountUp>
       </div>
     </div>
   )

@@ -11,8 +11,8 @@ const Header = () => {
             <ul className="header-nav">
                 <img className="prof-image" src={images} alt="ghazanfar ali" />
                 <h1 className="name">Ghazanfar Ali</h1>
-                <li className="option-1 options"><a href="#about-me"> Home</a></li>
-                <li className="options">About</li>
+                <li className="option-1 options"><a href="#home">Home</a></li>
+                <li className="options"><a href="#about-me"> About</a></li>
                 <li className="options">Contact</li>
                 <li className="options">Services</li>
                 <ul className="social-icons">

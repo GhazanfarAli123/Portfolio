@@ -5,8 +5,8 @@ import Typewriter from "typewriter-effect";
 export const Home = () => {
 
   return (
-    <div className="home-page-background">
-                <div className="welcome">Welcome</div>
+    <div className="home-page-background" id="home">
+      <div className="welcome">Welcome</div>
 
       <div className="app2">
         <Typewriter

@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 .header-nav {
   list-style-type: none;
   margin: 0;
@@ -83,7 +85,6 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   min-height: 100vh;
-
   transition: background-image .3s ease-in .2s;
 }
 
@@ -211,4 +212,91 @@ border: none;
 }
 .header-nav li a:hover{
   color: #20c997;
+}
+.counter{
+margin-left: 35% !important;
+margin-top: 5%;
+color: #fff;
+font-size: 40px;
+width: 30%;
+border-right: 1px solid white;
+}
+.counter span{
+  margin-left: 25%;
+  font-size: 4rem;
+}
+.counters{
+  display: flex;
+  margin-left: 25%;
+}
+.counter-2{
+  margin-left: 15% !important;
+  margin-top: 5%;
+  color: #fff;
+  font-size: 40px;
+  width: 20%;
+
+}
+.counter-2 span{
+  margin-left: 2%;
+  font-size: 4rem;
+}
+.counter-2 h4{
+ color: #dee3e4;
+}
+.counter h4{
+  color: #dee3e4;
+}
+.counter-2 span{
+  color: hsla(0,0%,100%,.5);
+}
+.counter span{
+  color: hsla(0,0%,100%,.5);
+}
+.counters{
+  margin-top: 30px;
+}
+.what-i-do{
+  width: 100%;
+  height: 800px;
+  background-color: #343a40 !important;
+}
+.what-i-do-2{
+  color: white !important;
+  margin-left: 47%;
+  margin-top: -6%;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 20px;
+  position: relative;
+}
+.what-i-do-2:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+  width: 13%;
+  border-bottom: 3px solid #20c997;
+}
+.react{
+  margin-left: 25%;
+  margin-top: 5%;
+  color:#fff;
+}
+.react p{
+  color: hsla(0,0%,100%,.5) !important;
+}
+.react{
+display: flex;
+}
+.react-img{
+  width: 4%;
+height: 2%;
+border-radius: 5px;
+margin-top: 7px;
+background-color: #212529;
+padding: 10px;
+}
+.react-info{
+  margin-left: 1%;
 }
