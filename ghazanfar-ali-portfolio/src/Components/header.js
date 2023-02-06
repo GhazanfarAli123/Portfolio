@@ -13,7 +13,7 @@ const Header = () => {
                 <h1 className="name">Ghazanfar Ali</h1>
                 <li className="option-1 options"><a href="#home">Home</a></li>
                 <li className="options"><a href="#about-me"> About</a></li>
-                <li className="options">Contact</li>
+                <li className="options"><a href="#what-i-do">Services</a></li>
                 <li className="options">Services</li>
                 <ul className="social-icons">
                     <li className="icons icon-1 fa fa-facebook" aria-hidden="true"></li>

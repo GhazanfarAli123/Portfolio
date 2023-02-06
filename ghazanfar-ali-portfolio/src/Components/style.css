@@ -296,7 +296,20 @@ border-radius: 5px;
 margin-top: 7px;
 background-color: #212529;
 padding: 10px;
+margin-left: 6%;
 }
 .react-info{
   margin-left: 1%;
+}
+.react-img-2{
+  width: 4%;
+height: 2%;
+border-radius: 5px;
+margin-top: 7px;
+background-color: #212529;
+padding: 10px;
+margin-left: 25%;
+}
+.bootstrap-image{
+  margin-left: 18.5% !important;
 }
