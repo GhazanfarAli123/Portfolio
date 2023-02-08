@@ -122,7 +122,8 @@ html{
   text-transform: uppercase;
   opacity: .1;
   color: #6c757d !important;
-  margin-left: 40%;
+  margin-left: 7%;
+  text-align: center;
   font-size: 120px;
   font-weight: 600;
   padding-top: 5%;
@@ -214,24 +215,23 @@ border: none;
   color: #20c997;
 }
 .counter{
-margin-left: 35% !important;
-margin-top: 5%;
+padding-left: 100px;
 color: #fff;
 font-size: 40px;
 width: 30%;
 border-right: 1px solid white;
 }
 .counter span{
-  margin-left: 25%;
   font-size: 4rem;
 }
 .counters{
   display: flex;
-  margin-left: 25%;
+justify-content: center;
+margin-top: 50px;
+text-align: center;
+width: 100%;
 }
 .counter-2{
-  margin-left: 15% !important;
-  margin-top: 5%;
   color: #fff;
   font-size: 40px;
   width: 20%;
@@ -253,13 +253,10 @@ border-right: 1px solid white;
 .counter span{
   color: hsla(0,0%,100%,.5);
 }
-.counters{
-  margin-top: 30px;
-}
 .what-i-do{
   width: 100%;
-  height: 800px;
-  background-color: #343a40 !important;
+padding-bottom: 60px;  
+background-color: #343a40 !important;
 }
 .what-i-do-2{
   color: white !important;
@@ -312,4 +309,53 @@ margin-left: 25%;
 }
 .bootstrap-image{
   margin-left: 18.5% !important;
+}
+.resume{
+  width: 100%;
+  height: 800px;
+  background-color: #212529;
+}
+.resume-back-text   {
+  text-transform: uppercase;
+  opacity: .1;
+  color: #6c757d !important;
+  margin-left: 7%;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 600;
+  padding-top: 5%; 
+}
+.what-i-do-2{
+  color: white !important;
+  margin-left: 47%;
+  margin-top: -6%;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 20px;
+  position: relative;
+}
+.what-i-do-2:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+  width: 13%;
+  border-bottom: 3px solid #20c997;
+}
+.resume-front{
+  color: white !important;
+  margin-left: 47%;
+  margin-top: -6%;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 20px;
+  position: relative;
+}
+.resume-front:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+  width: 8%;
+  border-bottom: 3px solid #20c997;
 }

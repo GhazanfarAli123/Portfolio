@@ -14,7 +14,8 @@ const Header = () => {
                 <li className="option-1 options"><a href="#home">Home</a></li>
                 <li className="options"><a href="#about-me"> About</a></li>
                 <li className="options"><a href="#what-i-do">Services</a></li>
-                <li className="options">Services</li>
+                <li className="options"><a href="#resume">Resume</a></li>
+                
                 <ul className="social-icons">
                     <li className="icons icon-1 fa fa-facebook" aria-hidden="true"></li>
                     <li className="icons fa fa-github" aria-hidden="true"></li>
