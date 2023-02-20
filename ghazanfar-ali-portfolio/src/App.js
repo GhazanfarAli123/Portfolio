@@ -4,7 +4,9 @@ import { Home } from "./Components/Home";
 import { About } from "./Components/About";
 import { Services } from "./Components/Services";
 import { Resume } from "./Components/Resume";
+import { Testimonial } from "./Components/Testimonial";
 import "./Components/script.js"
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <About />
       <Services />
       <Resume />
+      <Testimonial />
     </div>
   );
 }

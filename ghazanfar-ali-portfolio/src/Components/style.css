@@ -189,7 +189,7 @@ html {
   color: #fff;
   float: right;
   margin-right: 7%;
-  margin-top: -16%;
+  margin-top: -233px;
   list-style: none;
 
 }
@@ -437,7 +437,7 @@ html {
 .first-education {
   margin-top: 3rem;
   background-color: #111418;
-  width: 500px;
+  width: 600px;
   height: 230px;
   border-radius: 10px;
   padding-top: 30px;
@@ -541,4 +541,37 @@ html {
 }
 .skils-2{
   margin-top: 30px;
+}
+.testimonial{
+ background-color: #343a40;
+ height: 800px;
+}
+.testimonoal-text {
+  text-transform: uppercase;
+  opacity: .1;
+  color: #6c757d !important;
+  margin-left: 7%;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 600;
+  padding-top: 5%;
+}
+
+.get-in-touch {
+  color: white !important;
+  margin-left: 47%;
+  margin-top: -120px;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.get-in-touch:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 7%;
+  width: 13%;
+  border-bottom: 3px solid #20c997;
 }
