@@ -354,7 +354,7 @@ html {
 }
 
 .bootstrap-image {
-  margin-left: 17% !important;
+  margin-left: 271px !important;
 }
 
 .resume {
@@ -513,9 +513,11 @@ html {
   font-size: 1rem;
   color: #dee3e4;
 }
-.skill-name-perc span{
+
+.skill-name-perc span {
   margin-left: 80%;
 }
+
 .skill-perc {
   width: 450px;
   height: 10px;
@@ -524,28 +526,31 @@ html {
   background-color: #111418;
 }
 
-.skills .skils-2  {
+.skills .skils-2 {
   margin-left: 20%;
 
 }
 
-.skils-2 h1{
+.skils-2 h1 {
   visibility: hidden;
 }
 
-.skill-perc-2{
+.skill-perc-2 {
   width: 80%;
   height: 100%;
   border-radius: 10px;
   background-color: #20c997;
 }
-.skils-2{
+
+.skils-2 {
   margin-top: 30px;
 }
-.testimonial{
- background-color: #343a40;
- height: 800px;
+
+.testimonial {
+  background-color: #343a40;
+  height: 800px;
 }
+
 .testimonoal-text {
   text-transform: uppercase;
   opacity: .1;
@@ -574,4 +579,114 @@ html {
   left: 7%;
   width: 13%;
   border-bottom: 3px solid #20c997;
+}
+
+.mobile-number {
+  margin-left: 30%;
+  margin-top: 10rem;
+  font-size: 1rem;
+  display: flex;
+
+}
+
+.mobile-number i {
+  color: #1baa80;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.mobile-number .number {
+  color: #dee3e4;
+
+}
+
+.mail {
+  margin-left: 30%;
+  display: flex;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.mail i {
+  color: #1baa80;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.mail .number {
+  color: #dee3e4;
+}
+
+.follow-me {
+  margin-left: 30%;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-size: 1.3125rem !important;
+  color: #dee3e4;
+}
+
+.share-icons {
+  margin-left: -6.5rem;
+  margin-top: 1rem;
+}
+
+.icons-2 {
+  font-size: 20px;
+  margin-left: 1.5rem;
+}
+
+.personal-info {
+  width: 300px;
+  margin-left: 25%;
+}
+
+.form {
+  width: 300px;
+  margin-left: 55%;
+  margin-top: -200px;
+}
+
+.name-form {
+  background: #232a31;
+  border-color: #232a31;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 50px 10px 20px;
+}
+
+.email-form {
+  padding: 10px 50px 10px 20px;
+  background: #232a31;
+  border: none;
+  border-color: #232a31;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.form-1 {
+  display: flex;
+}
+.textarea{
+padding: 10px 10px 30px 20px;
+margin-top: 20px;
+background: #232a31;
+border-color: #232a31;
+border: none;
+color: #fff;
+border-radius: 5px;
+}
+.submit-button{
+margin-top: 10px;
+margin-left: 12.5rem;
+padding: 10px 80px;
+border-radius: 30px;
+background-color: #20c997;
+border: none;
+color: #fff;
+font-weight: 700;
+font-size: 20px;
 }
