@@ -5,6 +5,7 @@ import { About } from "./Components/About";
 import { Services } from "./Components/Services";
 import { Resume } from "./Components/Resume";
 import { Testimonial } from "./Components/Testimonial";
+import { Footer } from "./Components/Footer";
 import "./Components/script.js"
 
 
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Resume />
       <Testimonial />
+      <Footer />
     </div>
   );
 }

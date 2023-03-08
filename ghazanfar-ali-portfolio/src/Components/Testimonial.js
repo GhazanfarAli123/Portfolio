@@ -40,9 +40,9 @@ export const Testimonial = () => {
           <input type="email" className="email-form" placeholder="Email" />
         </div>
         <div className="form-2">
-          <textarea className="textarea" rows="5" cols="58" placeholder="Tell us more about your needs........"/>
+          <textarea className="textarea" rows="5" cols="58" placeholder="Tell us more about your needs........" />
         </div>
-        <input className="submit-button" type="submit" value="submit"/> 
+        <input className="submit-button" type="submit" value="submit" />
       </form>
     </div>
   )

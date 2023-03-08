@@ -26,7 +26,7 @@ html {
   height: 140px;
   border-radius: 50%;
   border: 15px solid #343a40;
-  margin-left: 19%;
+
   margin-top: 10%;
 }
 
@@ -39,7 +39,9 @@ html {
 
 .header-nav .options {
   margin-top: 4%;
-  margin-left: 35%;
+}
+.header-nav{
+  text-align: center;
 }
 
 .option-1 {
@@ -53,18 +55,15 @@ html {
 
 .icons {
   color: white;
-  margin-left: 35%;
 }
 
-.icon-1 {
-  padding-left: 15%;
-
-}
 
 .icons {
   color: #aab1b8 !important;
 }
-
+.social-icons li{
+margin-left: 20px;
+}
 .app2 {
   font-family: sans-serif;
   font-weight: 800;
@@ -417,7 +416,7 @@ html {
 }
 
 .ex-ed {
-  margin-left: 20%;
+  margin-left: 25%;
   color: #fff;
   display: flex;
   margin-top: 50px;
@@ -620,15 +619,15 @@ html {
 }
 
 .follow-me {
-  margin-left: 30%;
   margin-top: 2rem;
   text-transform: uppercase;
   font-size: 1.3125rem !important;
   color: #dee3e4;
+  text-align: center;
 }
 
 .share-icons {
-  margin-left: -6.5rem;
+  margin-left: -3.5rem;
   margin-top: 1rem;
 }
 
@@ -689,4 +688,17 @@ border: none;
 color: #fff;
 font-weight: 700;
 font-size: 20px;
+}
+@media (width:1656px){
+  .bootstrap-image{
+    margin-left: 225px !important;
+  }
+}
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: #212529;
+}
+.copy-right{
+  margin-left: 25%;
 }
