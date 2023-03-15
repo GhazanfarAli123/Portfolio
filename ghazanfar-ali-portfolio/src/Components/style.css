@@ -40,7 +40,8 @@ html {
 .header-nav .options {
   margin-top: 4%;
 }
-.header-nav{
+
+.header-nav {
   text-align: center;
 }
 
@@ -61,9 +62,11 @@ html {
 .icons {
   color: #aab1b8 !important;
 }
-.social-icons li{
-margin-left: 20px;
+
+.social-icons li {
+  margin-left: 20px;
 }
+
 .app2 {
   font-family: sans-serif;
   font-weight: 800;
@@ -669,39 +672,83 @@ margin-left: 20px;
 .form-1 {
   display: flex;
 }
-.textarea{
-padding: 10px 10px 30px 20px;
-margin-top: 20px;
-background: #232a31;
-border-color: #232a31;
-border: none;
-color: #fff;
-border-radius: 5px;
+
+.textarea {
+  padding: 10px 10px 30px 20px;
+  margin-top: 20px;
+  background: #232a31;
+  border-color: #232a31;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
 }
-.submit-button{
-margin-top: 10px;
-margin-left: 12.5rem;
-padding: 10px 80px;
-border-radius: 30px;
-background-color: #20c997;
-border: none;
-color: #fff;
-font-weight: 700;
-font-size: 20px;
+
+.submit-button {
+  margin-top: 10px;
+  margin-left: 12.5rem;
+  padding: 10px 80px;
+  border-radius: 30px;
+  background-color: #20c997;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
 }
-@media (width:1656px){
-  .bootstrap-image{
+
+@media (width:1656px) {
+  .bootstrap-image {
     margin-left: 225px !important;
   }
 }
-.footer{
-  height: 200px;
+
+.footer {
+  height: 150px;
   width: 100%;
   background-color: #212529;
 }
-.copy-right{
+
+.copy-right {
   margin-left: 25%;
 }
-.social-icons{
+
+.social-icons {
   padding: 0 !important;
+}
+
+.copy-right {
+  color: hsla(0, 0%, 98%, .8);
+  padding-top: 70px;
+  font-weight: 600;
+}
+
+.copy-right span {
+  color: #20c997;
+}
+
+.term-desc-btn {
+  background-color: transparent;
+  color: white;
+  margin-left: 75%;
+  border: none;
+  margin-top: -100px;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.modal-body {
+  background-color: #111418;
+  color: #dee3e4;
+}
+
+.modal-footer {
+  background-color: #111418;
+}
+
+.term-desc-btn:hover {
+  background-color: transparent;
+}
+
+.footer-btns {
+  display: flex;
+  margin-left: 70%;
 }
