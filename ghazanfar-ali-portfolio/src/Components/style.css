@@ -353,7 +353,7 @@ margin-left: 20px;
 }
 
 .bootstrap-image {
-  margin-left: 271px !important;
+  margin-left: 17% !important;
 }
 
 .resume {
@@ -416,7 +416,7 @@ margin-left: 20px;
 }
 
 .ex-ed {
-  margin-left: 25%;
+  margin-left: 21%;
   color: #fff;
   display: flex;
   margin-top: 50px;
@@ -428,7 +428,7 @@ margin-left: 20px;
 }
 
 .ex-ed .experience {
-  margin-left: 15%;
+  margin-left: 18%;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -436,7 +436,7 @@ margin-left: 20px;
 .first-education {
   margin-top: 3rem;
   background-color: #111418;
-  width: 510px;
+  width: 474px;
   height: 230px;
   border-radius: 10px;
   padding-top: 30px;
@@ -701,4 +701,7 @@ font-size: 20px;
 }
 .copy-right{
   margin-left: 25%;
+}
+.social-icons{
+  padding: 0 !important;
 }

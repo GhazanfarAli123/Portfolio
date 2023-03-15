@@ -47,7 +47,7 @@ export const Services = () => {
       <img className='react-img-2 bootstrap-image' src={bootstrap_logo} alt="reacts js"/>
         <div className='react-info'>
       <h3>Bootstrap</h3>
-      <p>Make website using Css framework Bootstrap</p>
+      <p>Make website using CSS framework Bootstrap</p>
       </div>
       </div>
     </div>
