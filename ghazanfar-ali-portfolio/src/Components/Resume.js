@@ -1,14 +1,20 @@
-export const Resume = () => {
+import { useContext } from "react";
+import { ActiveMenuContext } from "../App.js";
 
+
+
+export const Resume = () => {
+  
+  const { registerSection } = useContext(ActiveMenuContext);
   return (
-    <div className="resume" id="resume">
+    <div className="resume" id="resume" ref={registerSection("section-4")}>
       <div className="resume-back-text">SUMMARY</div>
       <div className="resume-front">
         Resume
       </div>
       <div className="ex-ed">
         <div className="education">
-          My Education
+          <span>My Education</span>
           <div className="first-education">
             <div className="date">2021-Present</div>
             <div className="degree">Computer Sciemce</div>
@@ -34,7 +40,8 @@ export const Resume = () => {
             </p>
           </div>
         </div>
-        <div className="experience">My Experience
+        <div className="experience">
+          <span>My Experience</span>
           <div className="first-education">
             <div className="date">2022-Present</div>
             <div className="degree">Frontend Developer</div>

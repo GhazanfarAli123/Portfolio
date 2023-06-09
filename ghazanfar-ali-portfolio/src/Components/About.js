@@ -1,8 +1,13 @@
 import CountUp from 'react-countup';
+import { useContext } from "react";
+import { ActiveMenuContext } from "../App.js";
+
 export const About = () => {
+  const { registerSection } = useContext(ActiveMenuContext);
 
   return (
-    <div className="about-me" id="about-me">
+    <section id="about-me"  ref={registerSection("section-2")}>
+    <div className="about-me">
       <div className="about-me-text">
         About me
       </div>
@@ -21,7 +26,7 @@ export const About = () => {
       <div className="about-table">
         <ul>
           <li><span>Name </span>: Ghazanfar Ali</li>
-          <li><span>Email </span>: <a href="ghazanfar.alizahid@gmail.com">ghazanfar.alizahid@gmail.com</a></li>
+          <li><span>Email </span>: <a href="mailto:ghazanfar.alizahid@gmail.com">ghazanfar.alizahid@gmail.com</a></li>
           <li><span>Age</span> : 22</li>
           <li><span>From</span> : Lahore, Pakistan</li>
         </ul>
@@ -45,5 +50,6 @@ export const About = () => {
       </CountUp>
       </div>
     </div>
+    </section>
   )
 }

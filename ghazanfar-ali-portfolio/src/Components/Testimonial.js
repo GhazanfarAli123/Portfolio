@@ -1,17 +1,21 @@
 import "./script.js"
 import React from 'react';
+import { useContext } from "react";
+import { ActiveMenuContext } from "../App.js";
+
 
 export const Testimonial = () => {
+  const { registerSection } = useContext(ActiveMenuContext);
 
   return (
-    <div className="testimonial">
-      <div className="testimonoal-text">
+    <div className="testimonial" id="testimonial"   ref={registerSection("section-5")}>
+      <div className="testimonoal-text"> 
         Contact
       </div>
       <div className="get-in-touch">
         Get in Touch
       </div>
-
+<div className="info">
       <div className="personal-info">
         <div className="mobile-number">
           <i className="fa fa-phone" aria-hidden="true"></i>
@@ -40,10 +44,11 @@ export const Testimonial = () => {
           <input type="email" className="email-form" placeholder="Email" />
         </div>
         <div className="form-2">
-          <textarea className="textarea" rows="5" cols="58" placeholder="Tell us more about your needs........" />
+          <textarea className="textarea" rows="5" placeholder="Tell us more about your needs........" />
         </div>
         <input className="submit-button" type="submit" value="submit" />
       </form>
+    </div>
     </div>
   )
 }
