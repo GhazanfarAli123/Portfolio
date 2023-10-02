@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { ActiveMenuContext } from "../App.js";
-
-
+import React from "react";
 
 export const Resume = () => {
   

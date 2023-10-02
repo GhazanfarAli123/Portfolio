@@ -1,6 +1,8 @@
 import CountUp from 'react-countup';
 import { useContext } from "react";
 import { ActiveMenuContext } from "../App.js";
+import React  from 'react';
+
 
 export const About = () => {
   const { registerSection } = useContext(ActiveMenuContext);

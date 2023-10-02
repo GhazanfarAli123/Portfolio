@@ -1,3 +1,4 @@
+import React  from 'react';
 import react_icon from './images/icons8-react-48(1).png';
 import php_logo from './images/icons8-php-logo-50(1).png';
 import html_logo from './images/icons8-html-filetype-50.png';
