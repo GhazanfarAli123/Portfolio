@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="copy-right">
-        <p>Copyright © 2023<span> Simone</span> . All Rights Reserved.</p>
+        <p>Copyright © 2023<span> Ghazanfar Ali</span> . All Rights Reserved.</p>
       </div>
       <div className="footer-btns">
         <div className="term-desc">
