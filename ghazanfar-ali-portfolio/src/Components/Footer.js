@@ -5,21 +5,28 @@ import Modal from 'react-bootstrap/Modal';
 
 export const Footer = () => {
   const [show, setShow] = useState(false);
+  
+  const [shownew, setShownew] = useState(false);
+
+  const handleClosenew = () => setShownew(false);
+  const handleShownew = () => setShownew(true);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+
   return (
     <div className="footer">
       <div className="copy-right">
-        <p>Copyright © 2023<span> Ghazanfar Ali</span> . All Rights Reserved.</p>
+        <p>Copyright © 2023<span> Ghazanfar Ali Zahid</span>. All Rights Reserved.</p>
       </div>
       <div className="footer-btns">
         <div className="term-desc">
-          <Button variant="primary" className="term-desc-btn" onClick={handleShow}>
+          <Button variant="primary" className="term-desc-btn" onClick={handleShownew}>
             Terms & Policy
           </Button>
 
-          <Modal show={show} onHide={handleClose}>
+          <Modal show={shownew} onHide={handleClosenew}>
             <Modal.Header closeButton className="modal-body">
               <Modal.Title>Terms & Policy</Modal.Title>
             </Modal.Header>
@@ -48,7 +55,7 @@ export const Footer = () => {
               Persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
               Quot quidam persequeris vim Quidam lisque persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</Modal.Body>
             <Modal.Footer className="modal-footer">
-              <Button className="btn btn-dark" variant="secondary" onClick={handleClose}>
+              <Button className="btn btn-dark" variant="secondary" onClick={handleClosenew}>
                 Close
               </Button>
             </Modal.Footer>
